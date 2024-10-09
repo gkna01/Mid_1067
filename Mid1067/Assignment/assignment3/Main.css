@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    color: #d62b1d;
+    size : 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+h2{
+    text-align: center;
+    background-color: aliceblue;
+    color: rgb(158, 59, 90);
+}
+p1{
+    size : 5 px;
+    font-family: "Times New Roman", Times, serif;
+}   
+h3{
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(168, 224, 224);
+} 
+.Ingedient{
+    background-color: #f3dadf;
+    font-weight : bold;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+ol{
+    background-color: rgb(233, 207, 169);
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight : bold;
+}
+.flex_container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.flex_container > div{
+    border: 5px solid rgb(153, 9, 45);
+    width: 50 px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.pic{
+    width : 100% ;
+    margin : auto;    
+}
+
+a:link{
+	color: #a70024; 
+}
